@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0278/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0278/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金液還丹百問訣
+  date: '2015-08-28 23:44:16.563089'
+  source:
+    repository: kanripo
+    path: KR5a0278
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0278_000-HFL.yaml, hash: 'sha256:046840b8d8a1449151040553224e516f4c5ad2b3195e77332c737c80a397b85b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0278_000-HFL.markers.yaml, hash: 'sha256:b1d1d0c8d6c4ce3d26d23cf033112cb5f6072ccf4bbd146605ac37cafe9b0847'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0278_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 10494
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e5f8a9299c4629d07b10fe2c3c1555e6822d541269478d078c09de964af82774
